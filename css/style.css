@@ -1,0 +1,320 @@
+/*********************************/
+/***************HEADER************/
+/*********************************/
+
+body{
+  padding: 0;
+  margin:0;
+}
+
+* {
+  font-family: 'Open sans',sans-serif;
+}
+
+
+.city{
+height:910px;
+background-image:url(../img/city.jpg);
+background-size: cover;
+padding-top: 1px;
+}
+
+.nav-link.disabled {
+    color: #000;
+}
+.titleheader{
+  font-size: 130px;
+  color:#fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 150px;
+  text-shadow: 3px 6px 2px #000;
+}
+
+h1{
+  font-family: 'Open Sans',sans-serif;
+}
+
+.bg-dark {
+    background-color:transparent!important;
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction:row;
+    flex-direction:;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.city a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+
+
+
+
+/****************************************/
+/*************BANDEAU2*******************/
+/****************************************/
+
+.ea {
+  width: 100%;
+  height: 1000px;
+  background-image: url(../img/eammawatson.jpeg);
+}
+
+.leftpart {
+  margin-top: 100px;
+
+}
+
+.justforspace h2{
+  font-family: 'Open sans',sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #898989;
+  text-transform: uppercase;
+}
+
+
+.rightpart {
+  float: right;
+  width: 49%;
+  display: block;
+  margin:0 auto;
+}
+
+.legende{
+  width: 237px;
+  text-align: center;
+  font-family: 'Open sans',sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  border-bottom: 1px black solid;
+
+}
+
+.trait{
+  border-top: 1px black solid;
+}
+
+.justforspace{
+  margin-top:50px;
+
+}
+
+
+/*************************************/
+/***************BANDEAU3**************/
+/*************************************/
+.resize{
+width: 100%;
+height: 700px;
+}
+
+.phone{
+  margin-top: 15px;
+  height: 700px;
+  background:url(../img/phone.jpg) no-repeat bottom center;
+  background-size: cover;
+}
+
+.centre{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/************************************/
+/************BANDEAUIMAGES***********/
+/************************************/
+.centre h2{
+color: black;
+font-size: 30px;
+text-align: center;
+}
+
+/*************************************/
+/****************BANDEAU4*************/
+/*************************************/
+
+.parcours {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.parcours h2{
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/*************************************/
+/**************BANDEAU5***************/
+/*************************************/
+
+.bandeaua {
+  text-align: center;
+}
+
+
+/*************************************/
+/***************BACKGROUND3***********/
+/*************************************/
+
+
+.back3{
+  height: 750px;
+  width:100%;
+  background: url(../img/paysage.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+/**************************************/
+/*********** MES SERVICES *************/
+/**************************************/
+
+.services{
+  width: 100%;
+  margin-top:70px;
+  max-height: 600px;
+}
+
+.services h2{
+  text-align: center;
+  font-weight: 300;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.services h3{
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.services h4{
+  margin-top:10px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/***************************************/
+/**************LOGOSSERVICES************/
+/***************************************/
+.card1{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+}
+
+.titlea h4{
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.titlea{
+  margin-top: 40px;
+}
+
+
+/***************************************/
+/***************BANDEAU4****************/
+/***************************************/
+
+.background4{
+  background-color:#A9A9A9;
+  max-height: 630px;
+  width: 100%;
+}
+
+.centerimage{
+  display: block;
+  margin: 0 auto;
+}
+
+/****************************************/
+/***************ESAPCEBLANC**************/
+/****************************************/
+
+.espaceblanc{
+width: 100%;
+height: 100px;
+}
+
+
+/*****************************************/
+/******************CITY2******************/
+/*****************************************/
+
+.city2{
+
+  height:600px;
+  background-image: url(../img/city2.jpg);
+  background-size: cover;
+
+}
+
+
+
+/****************************************/
+/****************FOOTER******************/
+/****************************************/
+.foot h2{
+  font-weight: 300;
+}
+
+.colonneleft{
+  padding-left: 50px;
+  margin-top: 50px;
+}
+.foot {
+  max-height: 1000px;
+  background-color:#353535;
+}
+
+.lorem{
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.coo{
+font-size: 13px;
+font-weight: 200;
+}
+
+.bouton{
+  margin-top: 5px;
+  border-width: 1px;
+  border-radius: 6px;
+  background-color: white;
+  width: 70px;
+  height: 30px;
+}
+
+.foot{
+  color: white;
+}
+
+.spacedown{
+  margin-top: 50px;
+}
