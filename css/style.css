@@ -306,9 +306,10 @@ font-weight: 200;
   margin-top: 5px;
   border-width: 1px;
   border-radius: 6px;
-  background-color: white;
+  background-color:white;
   width: 70px;
   height: 30px;
+  color: black;
 }
 
 .foot{
@@ -317,4 +318,11 @@ font-weight: 200;
 
 .spacedown{
   margin-top: 50px;
+}
+.test{
+  display: flex;
+  justify-content: center;
+}
+.black{
+  color: black;
 }
